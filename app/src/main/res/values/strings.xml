@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GREET</string>
+    <string name="menu_item1">文件传输</string>
+    <string name="menu_item2">朋友</string>
+    <string name="menu_item3">卡片管理</string>
+    <string name="menu_item4">读取卡片</string>
+    <string name="menu_item5">关于</string>
+    <string name="note_title">标题：</string>
+    <string name="note_content">内容</string>
+</resources>
