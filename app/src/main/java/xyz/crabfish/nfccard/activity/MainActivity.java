@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(UniversalActivity.newIntent(this, title));
             }
         } else if (view.getId() == R.id.userInfo) {
-            startActivity(UniversalActivity.newIntent(this, "个人中心"));
+            startActivity(editData.newIntent(this, "个人中心"));
         }
     }
 }

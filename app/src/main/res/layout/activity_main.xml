@@ -64,7 +64,7 @@
 
             <TextView
                 style="@style/MenuText"
-                android:drawableLeft="@drawable/coupon"
+                android:drawableLeft="@drawable/settings"
                 android:text="@string/menu_item3" />
 
             <TextView
@@ -74,7 +74,7 @@
 
             <TextView
                 style="@style/MenuText"
-                android:drawableLeft="@drawable/settings"
+                android:drawableLeft="@drawable/coupon"
                 android:text="@string/menu_item5" />
         </com.github.mzule.fantasyslide.SideBar>
 

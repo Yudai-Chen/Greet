@@ -20,7 +20,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                 "title text," +
                 "content text," +
                 "time text)");
-        db.execSQL("");
     }
 
     @Override
