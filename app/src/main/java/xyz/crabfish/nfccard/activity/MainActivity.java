@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDrawerSlide(View drawerView, float slideOffset) {
                 if (((ViewGroup) drawerView).getChildAt(1).getId() == R.id.leftSideBar) {
-                    indicator.setProgress(slideOffset);
+                 //   indicator.setProgress(slideOffset);
                 }
             }
         });
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
         imageButton = (ImageButton)findViewById(R.id.btnAdd);
         listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+      /*  listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
 
-        });
+        });*/
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
@@ -223,7 +223,11 @@ public class MainActivity extends AppCompatActivity {
             String title = ((TextView) view).getText().toString();
             if (title.startsWith("星期")) {
                 Toast.makeText(this, title, Toast.LENGTH_SHORT).show();
-            } else {
+            }
+            else if(title.equals("文件传输")){
+                startActivity(FileTransport.newIntent(this, title));
+            }
+            else {
                 startActivity(UniversalActivity.newIntent(this, title));
             }
         } else if (view.getId() == R.id.userInfo) {

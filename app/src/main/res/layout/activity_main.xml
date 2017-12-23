@@ -78,43 +78,6 @@
                 android:text="@string/menu_item5" />
         </com.github.mzule.fantasyslide.SideBar>
 
-        <!--<com.github.mzule.fantasyslide.SideBar-->
-            <!--android:id="@+id/rightSideBar"-->
-            <!--android:layout_width="133dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_gravity="end"-->
-            <!--android:background="@drawable/bg_right_bar"-->
-            <!--android:gravity="center_vertical|right"-->
-            <!--app:maxTranslationX="-33dp">-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期一" />-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期二" />-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期三" />-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期四" />-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期五" />-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期六" />-->
-
-            <!--<TextView-->
-                <!--style="@style/MenuText"-->
-                <!--android:text="星期日" />-->
-        <!--</com.github.mzule.fantasyslide.SideBar>-->
     </com.github.mzule.fantasyslide.FantasyDrawerLayout>
     <ImageButton
         android:id="@+id/btnAdd"

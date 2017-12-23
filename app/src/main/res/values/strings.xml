@@ -7,4 +7,24 @@
     <string name="menu_item5">关于</string>
     <string name="note_title">标题：</string>
     <string name="note_content">内容</string>
+    <string name="beaming_file">Beaming file using Android Beam™</string>
+    <string name="beaming_files">Beaming files using Android Beam™</string>
+    <string name="beaming_text">Beaming text using Android Beam™</string>
+    <string name="touch_devices">将两台NFC设备背靠背贴近</string>
+    <string name="file_sent">文件传输完毕，按下按钮以返回</string>
+    <string name="menu_about">About</string>
+    <string name="menu_donate">Donate</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_text">File Beam\n\nA quick application to send any file using Android Beam™\n\n© 2013\nMohammad Abu-Garbeyyeh</string>
+    <string name="nfc_not_available">您的设备不支持NFC功能</string>
+    <string name="nfc_turned_off">NFC设备被禁用，请进入手机设置以启用NFC</string>
+    <string name="detail_unknown_content">未知内容</string>
+    <string name="detail_unknown_size">未知大小</string>
+    <string name="detail_unknown_type">未知类型</string>
+    <string name="content_description_image">Image depicting the type of the file that is being beamed</string>
+    <string name="multiple_files">Multiple files</string>
+    <string name="multiple_file_types">Multiple file types</string>
+    <string name="unable_to_get_filename">获取文件名失败</string>
+    <string name="settings_showcase_title">You\'ve switched to the dialog theme</string>
+    <string name="settings_showcase_detail">To access the overflow menu in the dialog theme, tap and hold this icon. Try it now!</string>
 </resources>

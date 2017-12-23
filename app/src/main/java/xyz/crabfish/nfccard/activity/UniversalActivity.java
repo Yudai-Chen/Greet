@@ -7,11 +7,18 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
 import me.imid.swipebacklayout.lib.Utils;
 import me.imid.swipebacklayout.lib.app.SwipeBackActivityBase;
 import me.imid.swipebacklayout.lib.app.SwipeBackActivityHelper;
+import xyz.crabfish.nfccard.R;
+
 /**
  * Created by CrabFish on 2017/12/17.
  */
